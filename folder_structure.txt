@@ -1,0 +1,27 @@
+project-root/
+│
+├── public/            # Static files like images, fonts, favicon
+│   ├── images/
+│   ├── fonts/
+│   ├── favicon.ico
+│   └── index.html
+│
+├── src/               # Source code (main application files)
+│   ├── components/    # Reusable components like headers, footers
+│   ├── pages/         # Individual pages or views
+│   ├── styles/        # CSS or SCSS files
+│   ├── assets/        # App-specific assets (icons, videos, etc.)
+│   ├── utils/         # Utility functions or helpers
+│   ├── hooks/         # Custom React hooks (if applicable)
+│   ├── App.js         # Main app file
+│   ├── index.js       # Entry point
+│   └── router.js      # Routing logic
+│
+├── tests/             # Unit and integration tests
+│
+├── node_modules/      # NPM dependencies (auto-generated)
+│
+├── .env               # Environment variables
+├── package.json       # Project metadata and dependencies
+├── README.md          # Project documentation
+└── webpack.config.js  # Build configuration (or similar)
