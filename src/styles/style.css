@@ -9,20 +9,23 @@ p {
     text-align: center;
 }
 
-#content-container {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-}
-
 #logo-container {
+    background-color: aqua;
     display: flex;
     justify-content: center;
     padding-top: 1rem;
 }
 
+#content-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: bisque;
+}
+
 #page-description-container {
+    background-color: blue;
     display: flex;
     justify-content: center;
 }
