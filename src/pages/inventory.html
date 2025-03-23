@@ -9,16 +9,24 @@
         <link rel="stylesheet" href="/src/styles/style.css">
     </head>
     
-    <body>
-
-        <div class="page-title"><p>Inventory</p></div>
-
+    <body>        
         <div class="content-container inventory-page">
+            
+            <div id="title-and-search-container">
+                <div class="page-title">
+                    <p id="inventory-title">Inventory</p>
+                </div>
     
-
+                <div class="search-bar">
+                    <input type="text" id="search" placeholder="Scan or search">
+                    <button id="search-button">Search</button>
+                </div>
+            </div>
+    
+            <!-- Navigation bar -->
             <div class="nav-bar">
                 <a href="/public/index.html">
-                    <span class="icon">🏠</span>
+                    <img class="icon" src="/public/images/home.svg" alt="home icon">
                     <span class="label">Home</span>
                 </a>
             </div>

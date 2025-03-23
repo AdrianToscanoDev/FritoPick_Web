@@ -40,6 +40,11 @@ p {
     text-decoration: underline;
 }
 
+#title-and-search-container {
+    display: flex;
+    flex-direction: row;
+}
+
 /* navigation bar */
 .nav-bar {
     display: flex;
