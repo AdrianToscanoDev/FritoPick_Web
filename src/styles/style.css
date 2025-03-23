@@ -113,7 +113,9 @@ p {
     gap: 5px;
 }
 
+/* small plus sign icon */
 .add-icon{
     width: 30px;
     height: 30px;
+    filter: invert(75%) sepia(100%) saturate(500%) hue-rotate(180deg); /* this is how you change the color */
 }
