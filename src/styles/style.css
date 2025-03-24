@@ -95,10 +95,12 @@ p {
     align-self: stretch;
   }
 
-  p {
+  img {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 150px;
+    height: 150px;
   }
 
 /* navigation bar */
