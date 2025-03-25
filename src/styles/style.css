@@ -91,6 +91,7 @@ p {
     border: 2px groove black;
     justify-self: stretch;
     align-self: stretch;
+    cursor: pointer;
   }
 
   .card-icon {
