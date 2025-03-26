@@ -16,7 +16,11 @@
   .bubble {
     background-color: lightgray;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+  }
+
+  .bubble p:first-child {
+    margin-right: auto; /* Push all remaining elements to the right */
   }
 </style>
 
