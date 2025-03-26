@@ -1,9 +1,6 @@
-// document.querySelectorAll('.logo-card').forEach(function(card) {
-//     card.addEventListener('click', function() {
-//         openModal();
-//     });
-// });
-
-// function openModal() {
-//     window.location.href = 'test.html';
-// }
+const logoCard = document.getElementsByClassName('logo-card');
+for (let card of logoCard) {
+    card.addEventListener('click', function() {
+        alert('A card was clicked!');
+    });
+}
