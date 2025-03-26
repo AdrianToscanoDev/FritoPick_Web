@@ -1,6 +1,7 @@
 const modalWindow = document.querySelector('.modal-window');
 const closeBtn = document.querySelector('.close');
 
+// open the modal 
 function openModal() {
   modalWindow.style.display = 'block';
 }
@@ -16,4 +17,3 @@ window.onclick = function (event) {
     modalWindow.style.display = 'none';
   }
 };
-
