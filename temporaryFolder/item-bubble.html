@@ -17,11 +17,26 @@
     background-color: lightgray;
     display: flex;
     justify-content: flex-start;
+    padding-left: 10px;
   }
 
   .bubble p:first-child {
     margin-right: auto; /* Push all remaining elements to the right */
   }
+
+  #qty-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+  }
+  #qty-container label{
+    margin: 0;
+    padding: 0;
+  }
+  #qty-container input {
+    width: 20px; 
+    text-align: center; 
+  }
+
 </style>
 
 <body>
@@ -29,10 +44,11 @@
   <div class="bubble">
     <p>Classic</p>
     
-    <p>Qty:</p>
-    
-    <div>
-      <p>1</p>  
+    <div id="qty-container">
+      <form>
+        <label for="qty-input">Qty:</label>
+        <input type="number" id="qty-input" name="qty-input" min="0" max="99" step="1" value="1">
+      </form>  
     </div>
     
     <div>

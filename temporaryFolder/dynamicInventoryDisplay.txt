@@ -1,0 +1,25 @@
+Absolutely! You can dynamically generate the cards using JavaScript. Here's how you can achieve this:
+
+in html: This is a container where the cards will be dynamically added: 
+<div id="inventory"></div>
+
+JavaScript: 
+const inventory = ['Lays', 'Doritos', 'Fritos', 'Cheetos']; // Replace this array with your dynamic inventory list
+
+const inventoryContainer = document.getElementById('inventory');
+
+inventory.forEach(item => {
+  const card = document.createElement('div'); // Create the card
+  card.className = 'card'; // Add a class for styling
+  const itemName = document.createElement('p'); // Create the <p> for the item name
+  itemName.textContent = item; // Set the text content
+  card.appendChild(itemName); // Append the <p> to the card
+  inventoryContainer.appendChild(card); // Append the card to the container
+});
+
+css:
+.card {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px;
+}
