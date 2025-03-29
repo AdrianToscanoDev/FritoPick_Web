@@ -207,9 +207,14 @@ p {
     height: 80%;
   }
 
-  .close {
+.modal-header {
+    display: flex;
+    justify-content: left;
+}
+
+.close {
     color: #aaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
