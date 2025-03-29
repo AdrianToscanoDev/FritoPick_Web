@@ -37,6 +37,20 @@
     text-align: center; 
   }
 
+  #arrow-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: lime;
+  }
+  #arrow-container #up {
+    background-color: red;
+  }
+  #arrow-container #down {
+    background-color: blue;
+  }
 </style>
 
 <body>
@@ -51,8 +65,10 @@
       </form>  
     </div>
     
-    <div>
-      <p>^</p>
+    <div id="arrow-container">
+      <img id="up" src="/public/images/icons/up_arrow.png" alt="adjust quantity up" width="30px" height="30px">
+      
+      <img id="down" src="/public/images/icons/down_arrow.png" alt="adjust quantity down" width="30px" height="30px">
     </div>
 
     <div>
