@@ -209,7 +209,11 @@ p {
 
 .modal-header {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.item:first-child {
+    margin-right: auto;
 }
 
 .close {
