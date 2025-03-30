@@ -223,3 +223,63 @@ p {
     font-weight: bold;
     cursor: pointer;
   }
+
+/* ITEM BUBBLE */ 
+.bubble-container {
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+  }
+
+  .bubble-container p:first-child {
+    margin-right: auto; /* Push all remaining elements to the right */
+  }
+
+  #bubble-name {
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+
+  #right-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #qty-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+  }
+  #qty-container label{
+    margin: 0;
+    padding: 0;
+  }
+  #qty-container input {
+    width: 20px; 
+    text-align: center; 
+  }
+
+  #arrow-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 4px;
+  }
+  #add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 3px;
+  }
+  #add-container #add {
+    display: flex;
+    height: 30px;
+    width: 30px;
+  }
