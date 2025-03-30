@@ -83,24 +83,24 @@ p {
     place-items: center;
     box-sizing: border-box;
     gap: 4px;
-  }
+}
 
-  .logo-card {
+.logo-card {
     display: flex;
     justify-content: center;
     border: 2px groove black;
     justify-self: stretch;
     align-self: stretch;
     cursor: pointer;
-  }
+}
 
-  .card-icon {
+.card-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 150px;
     height: 150px;
-  }
+}
 
 /* navigation bar */
 .nav-bar {
@@ -207,7 +207,7 @@ p {
     height: 80%;
   }
 
-  .modal-header {
+.modal-header {
     display: flex;
     justify-content: center;
     align-items: center;
