@@ -207,25 +207,25 @@ p {
     height: 80%;
   }
 
-.modal-header {
-    background-color: gray;
-    width: 100%;
+  .modal-header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.close {
-    color: #aaa;
+.modal-header .icon.close {
     background-color: blue;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-  }
+    position: absolute;
+    left: 5px; /* Space on the left */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the icon */
+}
 
 #chip-brand-title {
-    background-color: aqua;
-    justify-self: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* ITEM BUBBLE */ 
@@ -235,7 +235,8 @@ p {
     justify-content: flex-start;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 25px;
+    border-radius: 15px;
+    border: 1.5px solid black;
   }
 
   .bubble-container p:first-child {
