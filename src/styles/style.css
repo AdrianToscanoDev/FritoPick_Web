@@ -239,7 +239,7 @@ p {
   }
 
   #bubble-name {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding-left: 20px;
   }
 
@@ -253,9 +253,10 @@ p {
 
   #qty-container {
     display: flex;
-    align-items: center; /* Center vertically */
+    align-items: center;
   }
   #qty-container label{
+    font-size: 0.9rem;
     margin: 0;
     padding: 0;
   }
