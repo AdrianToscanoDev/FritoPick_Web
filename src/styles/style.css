@@ -230,6 +230,10 @@ p {
     text-align: center;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 /* CONTAINER FOR EACH PRICE POINT. EG- 2.69 impulse, 4.79 XL , etc */
 .pricepoint-container {
     background-color:azure;

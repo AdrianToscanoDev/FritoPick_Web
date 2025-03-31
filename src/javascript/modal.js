@@ -17,3 +17,25 @@ window.onclick = function (event) {
     modalWindow.style.display = 'none';
   }
 };
+
+const modal = document.querySelector('.modal-window');
+const openModalButtons = document.querySelectorAll('.open-modal'); // Adjust selector as needed
+const closeModalButton = document.querySelector('.modal-header .icon.close');
+
+/* Functions to deactivate scrolling on main page when modal is active */
+
+// Function to open the modal
+function openModal() {
+    modal.style.display = 'block';
+    document.body.classList.add('no-scroll'); // Disable scrolling
+}
+
+// Function to close the modal
+function closeModal() {
+    modal.style.display = 'none';
+    document.body.classList.remove('no-scroll'); // Re-enable scrolling
+}
+
+// Add event listeners
+openModalButtons.forEach(button => button.addEventListener('click', openModal));
+closeModalButton.addEventListener('click', closeModal);
