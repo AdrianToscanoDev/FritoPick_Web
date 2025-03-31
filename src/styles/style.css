@@ -201,19 +201,24 @@ p {
 .modal-content {
     background-color:beige;
     margin: 15% auto;
-    padding: 5px;
+    padding: 0;
     border: 1px solid #888;
     width: 80%;
     height: 80%;
-    overflow-y:auto; 
+    overflow-y: auto; 
     box-sizing: border-box;
   }
 
-.modal-header {
+  .modal-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: sticky; /* Keeps the header fixed within the modal */
+    top: 0; /* Stick to the top of the modal content */
+    background-color: beige; /* Match the modal background */
+    z-index: 10; /* Ensure it stays above the scrollable content */
+    padding: 10px; /* Add some padding for spacing */
+    border-bottom: 1px solid #888; /* Optional: Add a border to separate the header */
 }
 
 .modal-header .icon.close {
