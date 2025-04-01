@@ -1,30 +1,152 @@
 Bakenets
-NULL
+-1
+chip
 0.0
 XL
+none
 Hot'n Spicy
 0
 
 Bakenets
-NULL 
+-1
+chip
 0.0
 XL
+none
 Traditional
+0
 
 Bakenets
-NULL 
+-1
+chip
 0.0
 XL
+none
 Flamin Hot
+0
 
 Bakenets
-NULL 
+-1
+chip
 0.0
 XL
+none
 Honey Mustard
+0
 
 Bakenets
-NULL 
+-1
+chip
 0.0
 XL
+none
 Queso
+0
+
+Cheetos
+-1
+chip
+0.0
+XL
+Asteroid
+Flamin Hot
+0
+
+Cheetos
+-1 
+chip
+0.0
+XL
+Bag of Bones
+none
+0
+
+Cheetos
+-1 
+chip
+0.0
+XL
+Baked
+Crunchy
+0
+
+Cheetos
+-1 
+chip
+0.0
+XL
+Baked
+Flamin Hot
+0
+
+Cheetos
+-1 
+chip
+0.0
+XL
+Bag of Bones
+Flamin Hot Limon
+0
+
+Cheetos
+-1 
+chip
+0.0
+XL
+none
+Flamin Hot
+0
+
+Cheetos
+-1 
+chip
+0.0
+XL
+none
+Flamin Hot Limon
+0
+
+Cheetos
+-1 
+chip
+0.0
+XL
+none
+XXXtra Hot
+0
+
+Doritos
+-1 
+chip
+0.0
+XL
+none
+Nacho Cheese
+0
+
+Doritos
+-1 
+chip
+0.0
+XL
+none
+Cool Ranch
+0
+
+Doritos
+-1 
+chip
+0.0
+XL
+none
+Flamin Hot Nacho
+0
+
+Doritos
+-1 
+chip
+0.0
+XL
+none
+Flamin Hot Cool Ranch
+0

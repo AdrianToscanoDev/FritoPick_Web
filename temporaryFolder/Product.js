@@ -1,4 +1,4 @@
-class ChipCase {
+class Product {
     constructor() {
         this.chips = [];
     }
