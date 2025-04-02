@@ -10,3 +10,11 @@ class Product {
         this.each = 0; 
     }
 }
+
+// loop through the inventory.txt file.
+// save each item into the Product class. 
+// then move that product into the Products class. 
+
+function generateInventory() {
+    
+}
