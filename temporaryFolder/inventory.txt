@@ -1,3 +1,13 @@
+FORMAT: 
+brand
+UPC
+type
+price
+size
+subName
+flavor
+each
+
 Bakenets
 -1
 chip
