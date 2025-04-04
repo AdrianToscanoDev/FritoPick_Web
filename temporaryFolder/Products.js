@@ -23,6 +23,9 @@ class Products {
             ["Ruffles", 100006, "chip", 0.0, "XL", "none", "Original", 12],
             ["Ruffles", 100006, "chip", 0.0, "XL", "none", "Cheddar Sour Cream", 12],
             ["Ruffles", 100006, "chip", 0.0, "XL", "none", "Flamin Hot", 12],
+            ["Fritos", 100007, "chip", 0.0, "XL", "none", "Flamin Hot", 10],
+            ["Fritos", 100008, "chip", 0.0, "XL", "none", "Regular", 10],
+            ["Fritos", 100007, "chip", 0.0, "XL", "none", "Scoops", 10],
         ]
     }
 }
