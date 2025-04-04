@@ -3,7 +3,6 @@ const closeBtn = document.querySelector('.close');
 
 // open the modal 
 function openModal() {
-  testFunc(); // test line for development
   modalWindow.style.display = 'block';
 }
 
@@ -40,9 +39,3 @@ function closeModal() {
 // Add event listeners
 openModalButtons.forEach(button => button.addEventListener('click', openModal));
 closeModalButton.addEventListener('click', closeModal);
-
-// TESTING : 
-function testFunc() {
-  const inventory = new Products();
-  console.log(inventory);
-}
